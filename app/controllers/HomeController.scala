@@ -21,4 +21,16 @@ class HomeController @Inject() extends Controller {
     Ok(views.html.index("Your new application is ready."))
   }
 
+  def keynote = Action {
+    Ok(views.html.keynote("Q3 - Keynote"))
+  }
+
+  def getTeam = Action {
+    Ok
+  }
+
+  def home = Action {
+    Ok(views.html.home("Home"))
+  }
+
 }
