@@ -26,6 +26,7 @@ class HomeController @Inject() extends Controller {
   }
 
   def getTeam = Action {
+
     Ok
   }
 
